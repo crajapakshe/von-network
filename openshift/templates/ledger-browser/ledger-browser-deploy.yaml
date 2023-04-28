@@ -167,8 +167,10 @@ objects:
                   path: /
                   port: 8080
               env:
-                - name: GENESIS_URL
-                  value: ${GENESIS_URL}
+                # - name: GENESIS_URL
+                #   value: ${GENESIS_URL}
+                - name: GENESIS_FILE
+                  value: ${GENESIS_FILE}
                 - name: IP
                   value: ${IP}
                 - name: PORT
